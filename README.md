@@ -3,7 +3,7 @@ x52pro
 
 Node.js library for controlling the LEDs and MFD of a Logitech/Saitek X52 Pro Joystick.
 
-**Currently this only works on Linux (and most-likely MacOS)**. On Windows the Joystick is occupied by a HID USB driver so
+**Currently this only works on Linux (and most likely macOS)**. On Windows the Joystick is occupied by a HID USB driver so
 this library can't send control requests to it without replacing the driver with a special libusb-compatible driver
 which then prevents the Joystick to be used in games. If someone knows a solution for this (Maybe it is possible to
 send the control messages via [node-hid]?) then please let me know.
