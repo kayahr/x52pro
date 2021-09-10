@@ -22,9 +22,9 @@
         "compile": "tsc",
         "watch": "tsc -w",
         "lint": "eslint --max-warnings 0 --ext .ts src",
-        "cspell": "cspell '**/*'",
-        "prepare": "npm run -s clean && npm run -s compile",
-        "test": "npm run -s cspell && npm run -s lint"
+        "cspell": "cspell \"**/*\"",
+        "prepare": "npm run clean && npm run compile",
+        "test": "npm run cspell && npm run lint"
     },
     "bin": {
         "x52pro": "bin/x52pro"
