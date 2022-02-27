@@ -72,7 +72,7 @@ Available commands:
         } else if (command === "mfd-brightness") {
             await device.setMFDBrightness(+value);
         } else if (/^mfd-text-[123]$/.exec(command) != null) {
-            await device.setMFDText(+command.substr(9) - 1, value);
+            await device.setMFDText(+command.substring(9) - 1, value);
         } else {
             const name = command.toUpperCase().replace(/-/g, "_");
             if (name in LED) {

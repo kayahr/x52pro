@@ -3,7 +3,7 @@
  * See LICENSE.md for licensing information.
  */
 
-import * as usb from "usb";
+import { usb } from "usb";
 
 import { CharTable } from "./CharTable";
 import { LED } from "./LED";
